@@ -1,0 +1,9 @@
+LosAngeles 2005 100
+Anaheim 1978 567
+Bakersfield 1988 198
+LosAngeles 2005 165
+Murrieta 2002 569
+Rocklin 1986 267
+LosAngeles 2005 879
+LosAngeles 2005 1765
+BrockBank 2001 567
