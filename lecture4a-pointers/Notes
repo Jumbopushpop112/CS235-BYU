@@ -1,0 +1,6 @@
+Code - machine instructions are stored here
+Static Memory - literals, global and static variables - these don't change
+Stack - local variables for functions are created here as the functions are called
+Heap - Large unused portions of the computers memory where the new data type is stored
+valgrind --leak-check=yes ./MemoryLeak
+g++ MemoryLeak.cpp -o MemoryLeak
