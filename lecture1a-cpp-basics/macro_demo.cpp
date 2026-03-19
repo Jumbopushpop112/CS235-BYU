@@ -1,0 +1,19 @@
+#include <iostream>
+
+#define SEVEN 7
+
+#include "../../include/debug.h"
+
+void message(int num) {
+    TRACE()
+    TRACK(num)
+    std::cout << "message: " << SEVEN + num << std::endl;
+    TRACE()
+//    BANANA
+}
+
+int main() {
+    message(8);
+    std::cout << "hello world!" << std::endl;
+    message(9);
+}
